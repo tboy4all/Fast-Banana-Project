@@ -391,7 +391,7 @@ header {
 #form {
   min-height: 60vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/assets/images/img/background-filler1.jpg);
+    url(../../assets/images/img/background-filler1.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -515,8 +515,7 @@ form {
 #about {
   min-height: 90vh;
   padding: 40px 0;
-  background: linear-gradient(rgba(255, 201, 20, 0.3), rgba(255, 201, 20, 0.3)),
-    url(/assets/images/project/current-projects-1.jpg) center/cover no-repeat
+  background: linear-gradient(rgba(255, 201, 20, 0.3), rgba(255, 201, 20, 0.3)), url(../../assets/images/project/current-projects-1.jpg) center/cover no-repeat
       fixed;
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 95%);
 }
@@ -809,7 +808,7 @@ form {
 
 #progress-bars {
   padding: 100px 0;
-  background: linear-gradient(rgba(255, 201, 20, 0.3), rgba(255, 201, 20, 0.3)), url(../images/img/background-filler.jpg) center/cover no-repeat fixed;
+  background: linear-gradient(rgba(255, 201, 20, 0.3), rgba(255, 201, 20, 0.3)), url(../../assets/images/img/background-filler.jpg) center/cover no-repeat fixed;
 }
 
 .progress-item {
@@ -952,7 +951,7 @@ form {
 #quotes {
   padding: 40px 0;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7
-  )), url(/assets/images/img/quotes-background.jpg) center/cover fixed no-repeat ;
+  )), url(../../assets/images/img/quotes-background.jpg) center/cover fixed no-repeat ;
 }
 
 #quotes .title-heading {
